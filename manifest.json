@@ -1,0 +1,37 @@
+{
+    "name": "Rendering pixelated image",
+    "description": "Change the default rendering type to pixelated",
+    "version": "0.1",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "scripting", "webRequest"],
+    "action": {
+        "default_icon": {
+            "16": "imgs/candlestick.png",
+            "24": "imgs/candlestick.png",
+            "32": "imgs/candlestick.png",
+            "48": "imgs/candlestick.png",
+            "128": "imgs/candlestick.png"
+        }
+    },
+    "icons": {
+        "16": "imgs/candlestick.png",
+        "24": "imgs/candlestick.png",
+        "32": "imgs/candlestick.png",
+        "48": "imgs/candlestick.png",
+        "128": "imgs/candlestick.png"
+    },
+    "host_permissions": [
+        "http://*/",
+        "https://*/"  
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"  
+            ],
+            "js": ["pixelate.js"]
+        }
+    ]
+
+}
