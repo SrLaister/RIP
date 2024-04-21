@@ -1,11 +1,7 @@
 <h1 align="center">
-    <img src="https://raw.githubusercontent.com/SrLaister/RIP/main/imgs/candlestick.png" alt="Logo" width="128" style="padding-right: 30px;">
+    <img src="https://raw.githubusercontent.com/SrLaister/RIP/main/imgs/candlestick.png" alt="Logo" width="64" style="padding-right: 30px;">
     Rendering pixelated image
 </h1>
-
----
-
-<br>
 
 ## :memo: About The Project
 
