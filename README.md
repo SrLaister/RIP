@@ -5,4 +5,4 @@
 
 ## :memo: About The Project
 
-Simple plugin for Google Chrome that changes image rendering to pixelated
+Simple Google Chrome plugin that changes the rendering of small images to pixelated, ideal for viewing pixel arts
